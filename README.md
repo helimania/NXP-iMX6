@@ -34,8 +34,7 @@ Basic Features of CPU Board:
 - Real Time Clock
 
 Basic Features for Zombie Shield:
-- 16 up to 24v 10-bit channels
-- 32 up to 24v digital channels, may be selectrf to ground controlled channels
-- 2 high speed optical isolated channels
-- OneWire interface
-- Power supply up to 24V 
+- 24 up to 24v 10-bit analog channels
+- 32 up to 40v digital channels, may be selectrf to ground controlled channels
+- 2 high speed optical isolated channels for Speed and Taho
+- Power supply up to 40V 
