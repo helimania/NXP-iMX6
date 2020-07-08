@@ -7,8 +7,8 @@ Are for NXP-iMX6 CPU Now.
 Better, quicker, smarter and more reliable! It's true!
 
 Basic Features of CPU Board:
-- Full system boot: 0.8-1.4 sec (depends on desire)
 - CPU: IMX6
+- Full system boot: 0.8-1.4 sec (depends on desire)
 - RAM DDR3: 1-4 GByte
 - eMMC: 4 GByte
 - Thermal: -40 +85 °С
