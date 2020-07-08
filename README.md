@@ -38,3 +38,4 @@ Basic Features for Zombie Shield:
 - 32 up to 40v digital channels, may be selectrf to ground controlled channels
 - 2 high speed optical isolated channels for Speed and Taho
 - Power supply up to 40V 
+- Another based on CPU board
