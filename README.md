@@ -35,7 +35,7 @@ Basic Features of CPU Board:
 
 Basic Features for Zombie Shield:
 - 24 up to 24v 10-bit analog channels
-- 32 up to 40v digital channels, may be select to ground controlled channels
+- 40 up to 40v digital channels, may be select to ground controlled channels
 - 2 high speed optical isolated channels for Speed and Taho
 - Power supply up to 40V 
 - Another based on CPU board
