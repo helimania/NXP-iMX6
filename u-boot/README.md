@@ -1,7 +1,6 @@
 # Stock enviroment
 
 baudrate=115200
-
 bootargs=
 bootcmd=for dtype in sata mmc usb ; do for disk in 0 1 ; do ${dtype} dev ${disk} ;for fs in fat ext2 ; do ${fs}load ${dtype} ${disk}:1 10008000 /6x_bootscript&& source 10008000 ; done ; done ; done; setenv stdout serial,vga ; echo ; echo 6x_bootscript not found ; echo ; echo serial console at 115200, 8N1 ; echo ; echo details at http://boundarydevices.com/6q_bootscript ; setenv stdout serial
 
