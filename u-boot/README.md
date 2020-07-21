@@ -109,11 +109,19 @@ fb_hdmi=boe:24:68152388,1920,720,5,63,2,39,1,1
 # Fix for - Error: FEC address not set
 
 setenv netdev eth0
+
 setenv ethprime FEC0
+
 setenv ethact FEC0
+
 setenv ethaddr 00:01:02:03:04:05
+
 setenv fec_addr 00:01:02:03:04:05
+
 setenv ipaddr 192.168.0.150
+
 setenv serverip 192.168.0.86
+
 setenv gatewayip 192.168.0.1
+
 saveenv
