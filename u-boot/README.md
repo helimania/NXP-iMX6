@@ -1,9 +1,12 @@
 # Stock enviroment
 
 baudrate=115200
+
 bootargs=
 bootcmd=for dtype in sata mmc usb ; do for disk in 0 1 ; do ${dtype} dev ${disk} ;for fs in fat ext2 ; do ${fs}load ${dtype} ${disk}:1 10008000 /6x_bootscript&& source 10008000 ; done ; done ; done; setenv stdout serial,vga ; echo ; echo 6x_bootscript not found ; echo ; echo serial console at 115200, 8N1 ; echo ; echo details at http://boundarydevices.com/6q_bootscript ; setenv stdout serial
+
 bootdelay=3
+
 clearenv=if sf probe || sf probe ; then sf erase 0xc0000 0x2000 && echo restored environment to factory default ; fi
 cmd_hdmi=fdt set fb_hdmi status okay;fdt set fb_hdmi mode_str 1280x720M@60;
 cmd_lvds=fdt set fb_lvds status disabled;fdt set ldb/lvds-channel@0 status disabled
