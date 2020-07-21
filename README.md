@@ -4,6 +4,8 @@ New Generation of Zombie Shield and not for Raspberry. Now it is possible
 
 Are for NXP-iMX6 CPU Now.
 
+![preview 1](https://github.com/helimania/NXP-iMX6/blob/master/CPU_preview.jpg)
+
 Better, quicker, smarter and more reliable! It's true!
 
 Basic Features of CPU Board:
