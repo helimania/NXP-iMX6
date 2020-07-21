@@ -1,5 +1,7 @@
 # Stock enviroment
 
+$textFile = new TextFile('text_file.txt');
+
 baudrate=115200
 
 bootargs=
