@@ -92,7 +92,7 @@ usbnetwork=setenv ethact usb_ether; setenv ipaddr 10.0.0.2; setenv netmask 255.2
 
 usbrecover=run usbnetwork;setenv bootargs console=${console},115200; tftpboot 10800000 10.0.0.1:uImage-${board}-recovery && tftpboot 12800000 10.0.0.1:uramdisk-${board}-recovery.img && bootm 10800000 12800000
 
-# Extra added
+# Extra added enviroment
 
 allow_noncea=1
 
