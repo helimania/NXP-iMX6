@@ -98,7 +98,7 @@ allow_noncea=1
 
 board=sabrelite
 
-bootdelay=2
+bootdelay=0
 
 bootfile=u-boot.q1g.18.adk.imx
 
